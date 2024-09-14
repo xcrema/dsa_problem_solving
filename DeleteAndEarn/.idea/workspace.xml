@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c3a6933-aada-4939-99e3-448d7cd9b5f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BubbleSort/BubbleSort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../COntainerWithMostWater/COntainerWithMostWater.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChessGame/ChessGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoinChange/CoinChange.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContinuousSubarraySum/ContinuousSubarraySum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecodeWays/DecodeWays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FourSum/FourSum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameofLife/GameofLife.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupAnagrams/GroupAnagrams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HarnessQues/HarnessQues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InsertionSort/InsertionSort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Knapsack/Knapsack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KokoEatingBanana/KokoEatingBanana.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/LoggerDesign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/ConsoleLogQueuePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/LogQueueManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/LogQueuePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/listeners/ConsoleLogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/listeners/FileLogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/listeners/LogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/model/ConsoleLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/model/FileLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoggerDesign/src/model/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubstring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubstring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubstring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubstring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubstring/LongestPalindromicSubstring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximalSquare/MaximalSquare.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maximum Product Subarray/Maximum Product Subarray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/MaximumSubarray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Merge Intervals/Merge Intervals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MergeSort/MergeSort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MinimumSwapsToBringElementsEqualAndBelowK/MinimumSwapsToBringElementsEqualAndBelowK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NextPermutation/NextPermutation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PairOfSongsDivisibleBySixty/PairOfSongsDivisibleBySixty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PalindromSubstrings/PalindromSubstrings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Palindromic Substrings/Palindromic Substrings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ParkingLot/ParkingLot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PascalsTriangle/PascalsTriangle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuestionOneInfoSys/QuestionOneInfoSys.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RotateImage/RotateImage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SelectionSort/SelectionSort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingUsingStackQueue/SortingUsingStackQueue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Splitwise/Splitwise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TazapayCOding/TazapayCOding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeClosestSum/ThreeClosestSum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeSum/ThreeSum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TraverseSpiralMatrix/TraverseSpiralMatrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WordSearch/WordSearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wordbreak/Wordbreak.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YashiCodingOne/YashiCodingOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YashiStringOps/YashiStringOps.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2d4FSrTF92LUtOyPMuhs9nV6kXM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c3a6933-aada-4939-99e3-448d7cd9b5f4" name="Changes" comment="" />
+      <created>1709259446687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709259446687</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
