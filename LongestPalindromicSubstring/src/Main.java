@@ -2,40 +2,79 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(longestPalindrome("babad"));
+//        System.out.println(longestPalindromeApproach1("cdda"));
+        System.out.println(manacherAlgo("aacabdkacaa"));
     }
 
-    public static String longestPalindrome(String s) {
-        char[] arr = s.toCharArray();
-        Set<String> allPalindroms = new HashSet<>();
 
-        helper(arr, 0, String.valueOf(arr[0]), 0, allPalindroms);
+    public static String manacherAlgo(String str) {
+        if (str.length() <= 1) {
+            return str;
+        }
+        int maxLength = 1;
+        String maxLengthStr = str.substring(0, 1);
+        str = str.replaceAll("", "#");
+        int[] dp = new int[str.length()];
 
-        String result = "";
-        for(String str : allPalindroms) {
-            result = result.length() > str.length() ? result : str;
+
+        int l = 0;
+        int r = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+
+            if (i <= r) {
+                dp[i] = Math.min(r-i, dp[r+l-i]);
+            }
+
+            while ((i-dp[i]-1) >= 0 && (i+dp[i]+1) < str.length() && str.charAt(i-dp[i]-1) == str.charAt(i+dp[i]+1))
+                dp[i]++;
+
+            if (i+dp[i] > r) {
+                r = dp[i]+i;
+                l = i-dp[i];
+            }
+
+            if (dp[i] > maxLength) {
+                maxLength = dp[i];
+                maxLengthStr = str.substring(i-dp[i], i+dp[i]+1).replaceAll("#", "");
+            }
+        }
+
+        return maxLengthStr;
+
+    }
+
+    public static String longestPalindromeApproach1(String s) {
+
+        if (s.length() <= 1) {
+            return s;
+        }
+
+        String result = s.substring(0, 1);
+
+        for (int i = 0; i < s.length() - 1; i++) {
+
+            String odd = expandFromCenter(s, i, i);
+            String even = expandFromCenter(s, i, i + 1);
+
+            if (odd.length() > result.length()) {
+                result = odd;
+            }
+
+            if (even.length() > result.length()) {
+                result = even;
+            }
         }
         return result;
     }
 
-    public static void helper(char[] arr, int i, String currStr, int pos, Set<String> allPalindroms) {
-        if (i>=arr.length) {
-            return;
+    private static String expandFromCenter(String s, int left, int right) {
+
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
         }
 
-        String revCurrStr = new StringBuilder(currStr).reverse().toString();
-
-        if (currStr.equals(revCurrStr)) {
-            allPalindroms.add(currStr);
-
-            if ((i+pos+1) < arr.length && (i-pos-1) >= 0) {
-                String newCurrStr =  "" + arr[i-pos-1] + currStr + "" + arr[i+pos+1];
-                helper(arr, i, newCurrStr, pos+1, allPalindroms);
-            }
-        }
-        if (i+1 < arr.length) {
-            helper(arr, i+1, String.valueOf(arr[i+1]), pos, allPalindroms);
-        }
-        return;
+        return s.substring(left + 1, right);
     }
 }
